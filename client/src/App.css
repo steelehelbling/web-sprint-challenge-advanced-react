@@ -1,5 +1,5 @@
 body {
-  background: #0e101c;
+  background: white;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -16,7 +16,7 @@ body {
 
 h1 {
   font-weight: 100;
-  color: white;
+  color: black;
   text-align: center;
   font-size: 2rem;
 }
@@ -27,7 +27,7 @@ h1 {
   right: -8px;
   border-radius: 50%;
   background-color: #ec5990;
-  color: #fff;
+  color: black;
   display: inline-block;
   padding-left: 6px;
   padding-right: 6px;
@@ -56,7 +56,7 @@ h1 {
 
 .plant-details {
   padding: 0 32px 0 16px;
-  color: #fff;
+  color: black;
   font-weight: 200;
   display: flex;
   flex-flow: column nowrap;
@@ -111,7 +111,7 @@ p {
 }
 
 .checkout-section {
-  color: #fff;
+  color: black;
   padding: 32px 0;
   display: flex;
   flex-flow: column nowrap;
@@ -156,7 +156,7 @@ label {
 
 button {
   background: #ec5990;
-  color: white;
+  color: black;
   text-transform: uppercase;
   border: none;
   margin-top: 40px;
@@ -203,7 +203,7 @@ hr {
 }
 
 h2 {
-  color: white;
+  color: black;
   font-weight: 200;
 }
 
@@ -217,12 +217,12 @@ button {
 }
 
 pre {
-  color: white;
+  color: black;
   white-space: pre;
 }
 
 .steps {
-  color: white;
+  color: black;
   display: flex;
   list-style: none;
   margin: 0;
@@ -250,4 +250,7 @@ pre {
 .active {
   color: #0e101c;
   border-bottom: 2px solid !important;
+}
+.check{
+  color: white;
 }
